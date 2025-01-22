@@ -155,11 +155,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleVoiceCommand(command: String?) {
         when (command?.toLowerCase(Locale.ROOT)) {
-            "enhance audio effect" -> viewModel.setBassBoost(100)
-            "reduce audio effect" -> viewModel.setBassBoost(10)
-            "reduce treble" -> viewModel.setTrebleSound(0)
-            "activate surround sound" -> viewModel.toggleSurroundSound(true)
-            "deactivate surround sound" -> viewModel.toggleSurroundSound(true)
+            "Hey AudioMaster, enhance bass" -> viewModel.setBassBoost(100)
+            "Hey AudioMaster, reduce bass" -> viewModel.setBassBoost(10)
+            "Hey AudioMaster, reduce treble" -> viewModel.setTrebleSound(0)
+            "Hey AudioMaster, Activate surround sound" -> viewModel.toggleSurroundSound(true)
+            "Hey AudioMaster, Deactivate surround sound" -> viewModel.toggleSurroundSound(true)
             // Add more commands here
             else -> Toast.makeText(this, "Command not recognized", Toast.LENGTH_SHORT).show()
             // mediaPlayer.audioSessionId
