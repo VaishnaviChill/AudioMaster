@@ -83,42 +83,42 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Choose the command"
+                android:text="Choose a command"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.HeadlineSmall"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Enhance audio effect"
+                android:text="Hey AudioMaster, enhance bass"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.LabelLarge"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reduce audio effect"
+                android:text="Hey AudioMaster, reduce bass"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.LabelLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reduce treble"
+                android:text="Hey AudioMaster, reduce treble"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.LabelLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Activate surround sound"
+                android:text="Hey AudioMaster, Activate surround sound"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.LabelLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deactivate surround sound"
+                android:text="Hey AudioMaster, Deactivate surround sound"
                 android:layout_margin="5dp"
                 style="@style/TextAppearance.Material3.LabelLarge" />
 
