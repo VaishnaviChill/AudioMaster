@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- activity_main.xml -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/playButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textViewBass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bass Boost: 0" />
+
+        <SeekBar
+            android:id="@+id/seekBarBass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/textViewTreble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treble Boost: 0" />
+
+        <SeekBar
+            android:id="@+id/seekBarTreble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="100"/>
+
+        <Switch
+            android:id="@+id/switchSurround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surround Sound" />
+
+       <Button
+           android:id="@+id/voiceCommandButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_margin="10dp"
+           android:padding="10dp"
+           android:layout_gravity="center_horizontal"
+           android:text="Give Commands"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose the command"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.HeadlineSmall"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enhance audio effect"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.LabelLarge"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reduce audio effect"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.LabelLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reduce treble"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.LabelLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activate surround sound"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.LabelLarge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deactivate surround sound"
+                android:layout_margin="5dp"
+                style="@style/TextAppearance.Material3.LabelLarge" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
